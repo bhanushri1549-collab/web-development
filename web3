@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adventure and Trekking</title>
+    <link rel="stylesheet" href="stylesss.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌄 Adventure Explorer</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#trekking">Trekking</a>
+            <a href="#packages">Packages</a>
+            <a href="#safety">Safety</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="banner" id="home">
+        <h2>Explore Nature, Enjoy Adventure!</h2>
+        <p>Discover beautiful mountains, exciting trekking routes
+        and unforgettable camping experiences.</p>
+        <a href="#packages" class="btn">Explore Trips</a>
+    </section>
+
+    <section id="trekking">
+        <h2>Popular Trekking Routes</h2>
+
+        <div class="container">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b">
+                <h3>Mountain Trek</h3>
+                <p>Duration: 3 Days</p>
+                <p>Difficulty: Medium</p>
+                <p>Price: ₹2,500</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e">
+                <h3>Forest Trek</h3>
+                <p>Duration: 2 Days</p>
+                <p>Difficulty: Easy</p>
+                <p>Price: ₹1,800</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+                <h3>Hill Adventure</h3>
+                <p>Duration: 4 Days</p>
+                <p>Difficulty: Hard</p>
+                <p>Price: ₹3,500</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="packages">
+        <h2>Camping Packages</h2>
+
+        <div class="container">
+            <div class="card">
+                <h3>Basic Package</h3>
+                <p>One Night Camping</p>
+                <p>Food and Tent</p>
+                <h3>₹1,500</h3>
+            </div>
+
+            <div class="card">
+                <h3>Standard Package</h3>
+                <p>Two Days Camping</p>
+                <p>Food, Tent and Guide</p>
+                <h3>₹2,500</h3>
+            </div>
+
+            <div class="card">
+                <h3>Premium Package</h3>
+                <p>Three Days Adventure</p>
+                <p>Food, Tent and Trekking Guide</p>
+                <h3>₹4,000</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="schedule">
+        <h2>Trip Schedule</h2>
+        <p>Day 1: Arrival and Introduction</p>
+        <p>Day 2: Trekking and Mountain Exploration</p>
+        <p>Day 3: Camping and Nature Photography</p>
+        <p>Day 4: Return Journey</p>
+    </section>
+
+    <section class="equipment">
+        <h2>Equipment Checklist</h2>
+        <ul>
+            <li>✔ Trekking Shoes</li>
+            <li>✔ Water Bottle</li>
+            <li>✔ Backpack</li>
+            <li>✔ First Aid Kit</li>
+            <li>✔ Flashlight</li>
+            <li>✔ Extra Clothes</li>
+            <li>✔ Raincoat</li>
+        </ul>
+    </section>
+
+    <section id="safety">
+        <h2>Safety Guidelines</h2>
+        <p>• Always follow your trekking guide.</p>
+        <p>• Carry enough drinking water.</p>
+        <p>• Avoid travelling alone.</p>
+        <p>• Keep the environment clean.</p>
+        <p>• Check weather conditions before travelling.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Book Your Adventure</h2>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <select required>
+                <option value="">Select Your Package</option>
+                <option>Basic Package</option>
+                <option>Standard Package</option>
+                <option>Premium Package</option>
+            </select>
+            <input type="date" required>
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 Adventure Explorer | Explore Nature, Enjoy Life!</p>
+    </footer>
+
+</body>
+</html>
+
+
+{*
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f8f4;
+    color: #333;
+}
+
+header {
+    background-color: #174d35;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #a8e6a1;
+}
+
+.banner {
+    background: linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.banner h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background-color: #e69b32;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #174d35;
+    margin-bottom: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card {
+    background-color: white;
+    width: 280px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card h3 {
+    color: #24734b;
+    margin: 12px;
+}
+
+.card p {
+    margin: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.schedule {
+    background-color: #dcefe3;
+}
+
+.schedule p {
+    margin: 12px;
+}
+
+.equipment ul {
+    display: inline-block;
+    text-align: left;
+    line-height: 2;
+    list-style: none;
+}
+
+#safety {
+    background-color: #e5f2e9;
+}
+
+#safety p {
+    margin: 12px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #174d35;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #287b50;
+}
+
+footer {
+    background-color: #174d35;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .banner h2 {
+        font-size: 27px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
