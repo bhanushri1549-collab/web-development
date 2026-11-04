@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sweet Treats Bakery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>🎂 Sweet Treats Bakery 🧁</h1>
+        <p>Fresh Cakes | Tasty Cookies | Sweet Memories</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Our Products</a>
+        <a href="#custom">Custom Cakes</a>
+        <a href="#offers">Offers</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Sweet Treats Bakery!</h2>
+        <p>Making every celebration sweeter with delicious cakes and treats.</p>
+
+        <div class="sticker">🎂 🧁 🍩 🍪</div>
+
+        <h3>A Little Sweetness Makes Life Better!</h3>
+    </section>
+
+    <section id="products">
+        <h2>Our Bakery Products</h2>
+
+        <div class="cake">
+            <div class="sticker">🎂</div>
+            <h3>Chocolate Cake</h3>
+            <p>Price: ₹450</p>
+            <button onclick="alert('Chocolate Cake selected!')">Order Now</button>
+        </div>
+
+        <div class="cake">
+            <div class="sticker">🧁</div>
+            <h3>Cup Cakes</h3>
+            <p>Price: ₹80</p>
+            <button onclick="alert('Cup Cakes selected!')">Order Now</button>
+        </div>
+
+        <div class="cake">
+            <div class="sticker">🍩</div>
+            <h3>Chocolate Donuts</h3>
+            <p>Price: ₹60</p>
+            <button onclick="alert('Chocolate Donuts selected!')">Order Now</button>
+        </div>
+
+        <div class="cake">
+            <div class="sticker">🍪</div>
+            <h3>Cookies</h3>
+            <p>Price: ₹100</p>
+            <button onclick="alert('Cookies selected!')">Order Now</button>
+        </div>
+
+        <div class="cake">
+            <div class="sticker">🥐</div>
+            <h3>Fresh Pastries</h3>
+            <p>Price: ₹90</p>
+            <button onclick="alert('Fresh Pastries selected!')">Order Now</button>
+        </div>
+
+        <div class="cake">
+            <div class="sticker">🍰</div>
+            <h3>Strawberry Cake</h3>
+            <p>Price: ₹400</p>
+            <button onclick="alert('Strawberry Cake selected!')">Order Now</button>
+        </div>
+    </section>
+
+    <section id="custom">
+        <h2>🎨 Custom Cake Designs</h2>
+
+        <p>Make your special occasions more beautiful!</p>
+        <div class="sticker">🎂 🌸 🎀 🎉</div>
+
+        <p>Birthday Cakes - Wedding Cakes - Anniversary Cakes</p>
+        <p>We prepare cakes according to your favourite designs and flavours.</p>
+
+        <button onclick="alert('Please contact us for custom cake orders!')">
+            Customize Your Cake
+        </button>
+    </section>
+
+    <section id="offers">
+        <h2>🎉 Special Seasonal Offers 🎉</h2>
+
+        <div class="sticker">🎁 🍓 🍫</div>
+
+        <h3>Festival Special!</h3>
+        <p>Get 15% OFF on selected cakes.</p>
+        <p>Buy 2 Cup Cakes and Get 1 Cookie Free!</p>
+        <p>Celebrate every moment with Sweet Treats Bakery.</p>
+    </section>
+
+    <section id="reviews">
+        <h2>Customer Reviews</h2>
+
+        <p>⭐ Priya: The chocolate cake was delicious!</p>
+        <p>⭐ Rahul: Beautiful cake designs and good quality.</p>
+        <p>⭐ Anu: I loved the cupcakes and cookies!</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <p>📍 Address: Vijayawada, Andhra Pradesh</p>
+        <p>📞 Phone: 9876543210</p>
+        <p>✉ Email: sweettreats@gmail.com</p>
+        <p>🕒 Opening Time: 9 AM - 9 PM</p>
+    </section>
+
+    <footer>
+        <p>Copyright © 2026 Sweet Treats Bakery</p>
+        <p>Made with ❤️ for Cake Lovers!</p>
+    </footer>
+
+</body>
+</html>
+
+
+body {
+    background-color: #fff5f5;
+    font-family: Arial;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #d86b87;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    background-color: #713b50;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+}
+
+nav a:hover {
+    color: pink;
+}
+
+section {
+    padding: 25px;
+}
+
+h2 {
+    color: #b34468;
+}
+
+.sticker {
+    font-size: 65px;
+    padding: 15px;
+}
+
+.cake {
+    display: inline-block;
+    background-color: #ffe4ec;
+    width: 220px;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #e9b6c6;
+    border-radius: 12px;
+}
+
+.cake .sticker {
+    background-color: white;
+    border-radius: 10px;
+    font-size: 75px;
+}
+
+.cake h3 {
+    color: #9b3657;
+}
+
+.cake p {
+    font-size: 17px;
+}
+
+button {
+    background-color: #d86b87;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #713b50;
+}
+
+#custom {
+    background-color: #ffe4ec;
+}
+
+#offers {
+    background-color: #fff0d9;
+}
+
+#reviews {
+    background-color: #fce5eb;
+}
+
+#contact {
+    background-color: #f9d5df;
+}
+
+footer {
+    background-color: #713b50;
+    color: white;
+    padding: 15px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .cake {
+        width: 80%;
+    }
+}
